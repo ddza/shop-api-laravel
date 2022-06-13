@@ -151,6 +151,8 @@ class DatabaseSeeder extends Seeder
 
       ];
 
-        DB::table("women_collection")->insert($womenCollection);
+        //DB::table("women_collection")->insert($womenCollection);
+        DB::table("men_collection")->insert($menCollection);
+        //$this->call(CouponsTableSeeder::class);
     }
 }
